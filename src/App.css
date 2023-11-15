@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+.container{
+  margin: auto;
+  max-width: 700px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.calListBlock{
+  background-color: white;
+  width: 600px;
+  padding: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inputBlock{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.inputOne, .inputTwo{
+  width: 40%;
 }
 
-.App-link {
-  color: #61dafb;
+.submitBtn{
+  border:none;
+  padding :5px 9px;
+  border-radius:10px;
+  cursor:pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.budgetResults{
+  display: flex;
+  justify-content: right;
+}
+
+input{
+  width: 100%;
 }
